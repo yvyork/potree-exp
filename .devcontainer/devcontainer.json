@@ -1,0 +1,9 @@
+{
+  "name": "potree-dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [1234],
+  "postCreateCommand": "npm install",
+  "postStartCommand": "npm start"
+}
